@@ -1,0 +1,35 @@
+@charset "utf-8";
+#wrap {
+    background-color: #000;
+}
+.header {
+    height: 60px;
+}
+/*버튼*/
+aside {
+    position: absolute;
+    padding-right: 10px;
+    right: 0;
+    top: 30px;
+    top: calc(30px -16px);
+}
+aside .ticket {
+    font-family: "Lato",sans-serif;
+}
+aside .ticket button {
+    width: 114px;
+    height: 32px;
+    background-color: #fff;
+}
+/*유튜브*/
+#content .youtube {
+    padding: 0 10px;
+    /*margin-top: 50%;*/
+    transform:  translateY(-100%);
+}
+#content .youtube iframe {
+    width: 100%;
+}
+input[id="menuicon"]+label {
+    background-color: transparent;
+}

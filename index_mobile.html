@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=1">
+    <title>parasite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index_mobile.css">
+    <link rel="icon" href="images/corona_coronavirus_covid19_genome_infection_icon.ico">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            /*브라우저 높이값 구현*/
+            var browserWidth = $(window).width();
+            var browserHeight = $(window).height();
+            console.log(browserWidth);
+            console.log(browserHeight);
+            $('#wrap').css({ 'height': browserHeight });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header class="header">
+            <!--햄버거메뉴 그리기-->
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <!--햄버거메뉴 그리기 끝-->
+            <nav class="mobile_gnb">
+                <ul class="gnb">
+                    <li><a href="index_mobile.html">HOME</a></li>
+                    <li><a href="mobile_ticket.html">GET&nbsp;TICKETS</a></li>
+                    <li><a href="mobile_video.html">VIDEOS</a></li>
+                    <li><a href="mobile_sysnopsys.html">SYSNOPSYS</a></li>
+                    <li><a href="mobile_jessica.html">JESSICA&nbsp;JINGLE</a></li>
+                    <li><a href="mobile_Mockup.html">SHARE</a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href="#none" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#none" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#none" class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="content">
+            <section>
+                <div class="button">
+                    <button><a href="mobile_ticket.html">GET&nbsp;TICKETS</a></button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p><img src="images/legal-logos.png" alt="회사로고"></p>
+        <p><a href="#none">MOVIE PLATFORM &copy; 2019 POWSTER</a></p>
+        <p><a href="#none">&copy; 2018 NEON RATED, LLC</a></p>
+    </footer>
+</body>
+
+</html>

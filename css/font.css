@@ -1,0 +1,42 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Chicle|Cute+Font&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Flavors&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Passero+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gaegu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script|Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
+
+.OpenSans {font-family: 'Coiny', cursive;}
+.Montserrat {font-family: 'Amaranth', sans-serif;}
+.Oswald {font-family: 'Creepster', cursive;}
+.Raleway {font-family: 'Frijole', cursive;}
+.PTSans {font-family: 'Cute Font', cursive;}
+.NotoSans {font-family: 'Chicle', cursive;}
+.PTSerif {font-family: 'Flavors', cursive;}
+.TitilliumWeb {font-family: 'Passero One', cursive;}
+.NotoSerif {font-family: 'Combo', cursive;}
+.NanumMyeongjo {font-family: 'Piedra', cursive;}
+.NanumPenScript {font-family: 'Share Tech Mono', monospace;}
+.GothicCoding {font-family: 'Delius Unicase', cursive;}
+.NanumBrushScript {font-family: 'Sedgwick Ave Display', cursive;}
+.NotoSansKR {font-family: 'Hi Melody', cursive;}
+.NotoSerifKR {font-family: 'Gamja Flower', cursive;}
+.Monoton {font-family: 'Walter Turncoat', cursive;}
+.Quicksand {font-family: 'Gaegu', cursive;}
+.MALE {font-family: 'Gochi Hand', cursive;}
+.Anton {font-family: 'Nanum Pen Script', cursive;}
+.NanumGothic {font-family: 'Patrick Hand', cursive;}	

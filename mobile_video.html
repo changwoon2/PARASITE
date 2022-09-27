@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=1">
+    <title>parasite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index_mobile.css">
+    <link rel="stylesheet" href="css/mobile_ticket.css">
+    <link rel="stylesheet" href="css/mobile_video.css">
+    <link rel="icon" href="images/corona_coronavirus_covid19_genome_infection_icon.ico">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="js/mobile_parallax.js"></script>
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--1.패럴렉스 스크롤링의 핵심 : 배경과 내용이 스크롤시 시간차가 꼭 있어야 함 = 동적인 느낌-->
+    <!--2.패럴렉스 스크롤링의 핵심 : 배경과 내용이 스크롤시 반대방향으로 움직이도록 해도 됨-->
+    <!--data-*속성은 웹문서의 레이아웃이나 내용에는 영향을 주지 않으면서 특정한 속성을 지정하고 싶을때 사용자가 원하는 이름(=-*는 맘대로 정의가능)으로 만들수 있는 속성-->
+    <!--data-*속성은 제이쿼리 자바스크립트에서 많이 사용-->
+    <div id="wrap" data-type="background" data-speed="0.5">
+        <header class="header">
+            <!--햄버거메뉴 그리기-->
+            <input type="checkbox" id="menuicon">
+            <label for="menuicon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <!--햄버거메뉴 그리기 끝-->
+
+            <nav class="mobile_gnb">
+                <ul class="gnb">
+                    <li><a href="index_mobile.html">HOME</a></li>
+                    <li><a href="mobile_ticket.html">GET&nbsp;TICKETS</a></li>
+                    <li><a href="mobile_video.html">VIDEOS</a></li>
+                    <li><a href="mobile_sysnopsys.html">SYSNOPSYS</a></li>
+                    <li><a href="mobile_jessica.html">JESSICA&nbsp;JINGLE</a></li>
+                    <li><a href="mobile_Mockup.html">SHARE</a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href="#none" class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#none" class="twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                    <li><a href="#none" class="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+            <aside>
+                <div class="ticket">
+                    <button><a href="mobile_ticket.html">GET&nbsp;TICKE</a></button>
+                </div>
+            </aside>
+        </header>
+
+        <!--패럴렉스되는 컨텐츠 영역 시작-->
+        <div id="content">
+            <section class="youtube">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jBdRhhSt3Bc" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+        </div>
+        <!--패럴렉스되는 컨텐츠 영역 끝-->
+    </div>
+
+    <footer>
+        <p><img src="images/legal-logos.png" alt="회사로고"></p>
+        <div class="copyright">
+            <p><a href="#none">MOVIE PLATFORM &copy; 2019 POWSTER</a></p>
+            <p><a href="#none">&copy; 2018 NEON RATED, LLC</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    var bw = $(window).width();
+    var bh = $(window).height();
+    $('#wrap').css({ 'height': bh });
+    $('#wrap').css({ 'max-height': bh });
+
+    var result = bh / 2
+    console.log(result);
+    $('.youtube').css({ 'margin-top': result });
+</script>
